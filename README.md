@@ -1,14 +1,14 @@
 Predict when you are going to get an offer from AYY
 
-#Dependencies
+# Dependencies
 
 * robobrowser
 * bs4
 * datetime
 
-#Run
+# Run
 
-  1. set up config.py file with
+  1. set up `config.py` file with
   ```
 email="YOU_EMAIL"
 password="YOUR_PASSWORD"
