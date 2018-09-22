@@ -11,5 +11,5 @@ for li in data:
 with open('data.csv', 'w') as csvfile:
     filewriter = csv.writer(csvfile, delimiter=',',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
-    filewriter.writerow([''] + names)
-    filewriter.writerow([''] + apartments)
+    filewriter.writerow(['names'] + names)
+    filewriter.writerow(['apartments'] + apartments)
