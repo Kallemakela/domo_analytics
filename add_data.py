@@ -12,3 +12,4 @@ with open('data.csv','a') as csvfile:
     filewriter = csv.writer(csvfile, delimiter=',',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
     filewriter.writerow([time] + pos)
+print("Data added!")
