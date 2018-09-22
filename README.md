@@ -1,4 +1,4 @@
-Predict when you are going to get an offer from AYY
+## Predict when you are going to get an offer from AYY
 
 # Dependencies
 
@@ -12,6 +12,7 @@ Predict when you are going to get an offer from AYY
   ```
 email="YOU_EMAIL"
 password="YOUR_PASSWORD"
+path="/path/to/Domo_analytics/"
   ```
   2. run init.py (only run this the first time)
   3. run add_data.py daily

@@ -10,7 +10,7 @@ if (sure == 'y')
     for li in data:
         names.append(li.contents[0])
         apartments += li.contents[1]
-    with open('data.csv', 'w') as csvfile:
+    with open(config.path + 'Domo_analytics/data.csv', 'w') as csvfile:
         filewriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
         filewriter.writerow(['names'] + names)
