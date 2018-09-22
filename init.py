@@ -1,6 +1,7 @@
 import get_data
 import bs4
 import csv
+import config
 
 sure = input("Are you sure you want to overwrite data.csv?(y/n?)\n")
 if (sure == 'y')
