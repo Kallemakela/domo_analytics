@@ -4,7 +4,7 @@ import csv
 import config
 
 sure = input("Are you sure you want to overwrite data.csv?(y/n?)\n")
-if (sure == 'y')
+if (sure == 'y'):
     data = get_data.get_data()
     names = []
     apartments = []
