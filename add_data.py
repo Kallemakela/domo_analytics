@@ -6,7 +6,7 @@ import config
 
 data = get_data.get_data()
 pos = []
-time = str(datetime.now())
+time = str(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 for li in data:
     pos += li.contents[2]
 #Add full path so you can run program wihtout being in the dir
